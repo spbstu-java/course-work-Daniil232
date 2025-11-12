@@ -1,0 +1,23 @@
+hello | привет
+world | мир
+look | смотреть
+look forward | ожидать
+house | дом
+book | книга
+to read | читать
+water | вода
+to drink | пить
+food | еда
+to eat | есть
+friend | друг
+family | семья
+day | день
+night | ночь
+big | большой
+small | маленький
+to see | видеть
+to go | идти
+thank you | спасибо
+please | пожалуйста
+How are you? | Как дела?
+My name is | Меня зовут

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="25" alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.controller.MainController">
+    <padding><Insets top="40" right="40" bottom="40" left="40"/></padding>
+
+    <VBox spacing="8" alignment="CENTER">
+        <Label text="Курсовая работа" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+        <Label text="Работу выполнил студент группы № в5130904/30321" style="-fx-font-size: 13;"/>
+        <Label text="Баранов Даниил Олегович" style="-fx-font-size: 14; -fx-font-weight: bold;"/>
+
+        <Separator prefWidth="350"/>
+    </VBox>
+
+    <VBox spacing="20" alignment="CENTER">
+        <Label text="Выберите лабораторную работу:" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+
+        <VBox spacing="10" alignment="CENTER">
+            <Button fx:id="button_Openlab1" text="Лабораторная работа 1" onAction="#openLab1"
+                    style="-fx-font-size: 13; -fx-pref-width: 220; -fx-pref-height: 35;"/>
+
+            <Button fx:id="button_OpenLab2" text="Лабораторная работа 2" onAction="#openLab2"
+                    style="-fx-font-size: 13; -fx-pref-width: 220; -fx-pref-height: 35;"/>
+
+            <Button fx:id="button_OpenLab3" text="Лабораторная работа 3" onAction="#openLab3"
+                    style="-fx-font-size: 13; -fx-pref-width: 220; -fx-pref-height: 35;"/>
+
+            <Button fx:id="button_OpenLab4" text="Лабораторная работа 4" onAction="#openLab4"
+                    style="-fx-font-size: 13; -fx-pref-width: 220; -fx-pref-height: 35;"/>
+        </VBox>
+
+        <VBox spacing="6" alignment="CENTER_LEFT" style="-fx-padding: 12; -fx-border-color: #cccccc; -fx-border-width: 1; -fx-border-radius: 5;">
+            <Label text="Описание лабораторных работ:" style="-fx-font-weight: bold;"/>
+            <Label text="• Лаб 1: Паттерн 'Стратегия' - перемещение героя"/>
+            <Label text="• Лаб 2: Аннотации и рефлексия - выполнение методов"/>
+            <Label text="• Лаб 3: Переводчик - конвертация текста"/>
+            <Label text="• Лаб 4: Stream API - операции с коллекциями"/>
+        </VBox>
+    </VBox>
+</VBox>
